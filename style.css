@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+    background-color: #20242d;
+}
+ul li {
+    color: white;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    background-color: red;
+}
+.navbar img{
+    width: 8%;
+}
