@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     
-<body>
+<body onload="anime()">
     <div class="container">
         <div class="navbar">
             <img src="/images/logoRT.png" alt="logo_image">
@@ -26,25 +26,25 @@
                 <h2>And I'm a <a href="https://fr.wikipedia.org/wiki/D%C3%A9veloppeur_full_stack">Full-Stack Developer</a></h3>
                 <p>work on both the front-end and the back-end of an application</p>
                 <div class="bloc-logo1">
-                    <img src="/icons/facebook3.png" alt="facebook_image">
-                    <img class="dim" src="/icons/twiter.png" alt="twitter_image">
-                    <img class="dim" src="/icons/linkedin.png" alt="linkedin_image">
+                    <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dfr_FR"><img src="/icons/facebook3.png" alt="facebook"></a>
+                    <a href="https://mail.google.com/mail/?view=cm&to=your-email@example.com"><img src="/icons/message.png" alt="email"></a>
+                    <a href="https://www.linkedin.com/in/rayen-tliba-226484360/"><img src="/icons/linkedin.png" alt="linkedin_image"></a>
                 </div>
                 <!-- <button id="btn1"><a href="Cv.png">Download CV</a></button> -->
-                <a href="Cv.png" download="" class="btn1"  >Download CV</a>
+                <a href="Cv.png" download="" id="bot"  >Download CV</a>
                 <div class="xp">
                     <div class="xp1">
-                        <p class="nb-color">+4</p>
+                        <p class="nb-color">+<span id="spn1">5</span></p>
                         <p>Experiences</p>
                         
                     </div>
                     <div class="xp1">
-                        <p class="nb-color">+10</p>
+                        <p class="nb-color">+<span id="spn2">10</span></p>
                         <p>Project Done</p>
                         
                     </div>
                     <div class="xp1">
-                        <p class="nb-color">+20</p>
+                        <p class="nb-color">+<span id="spn3">0</span></p>
                         <p>Happy Clients</p>
                         
                     </div>
@@ -61,7 +61,7 @@
                 
                 <p id="texte">
                     I am a passionate Full Stack Developer with expertise in building dynamic, scalable, and user-friendly web applications. With a strong foundation in both front-end and back-end development, I thrive on solving complex problems and delivering innovative solutions. I am committed to continuous learning and staying updated with the latest technologies to create impactful digital experiences.</p>
-                <img src="/images/image_about.png" alt="picture">    
+                <img id="zom" src="/images/image_about.png" alt="picture">    
             </div>
             
         </div>
@@ -118,6 +118,34 @@
                 <img src="/images/Connections.png" alt="connections">
             </div>
             <button>See More</button>
+        </div>
+        <div class="contact">
+            <h1>Contact <span>ME</span></h1>
+            <div class="fl">
+                <div class="info">
+                    <div class="bloc12">
+                        <img src="/icons/email.png" alt="send">
+                        <p>tlibarayen2@gmail.com</p>
+                    </div>
+                    <div class="bloc12">
+                        <img src="/icons/phone.png" alt="phone">
+                        <p>+33 06 10 57 21 61</p>
+                    </div>
+                    <div class="bloc13">
+                        <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dfr_FR"><img src="/icons/facebook3.png" alt="facebook"></a>
+                        <a href="https://mail.google.com/mail/?view=cm&to=your-email@example.com"><img src="/icons/message.png" alt="email"></a>
+                        <a href="https://www.linkedin.com/in/rayen-tliba-226484360/"><img src="/icons/linkedin.png" alt="linkedin_image"></a>
+                    </div>
+                
+            </div>
+            <div class="enter">
+                <form action="">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <input id="ipt2" type="text" placeholder="Your Message">
+                    <input type="button" value="Submit">
+                </form>
+            </div>
         </div>      
     </div>
 
