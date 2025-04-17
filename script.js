@@ -1,28 +1,3 @@
-// function anime(){
-// var counter = document.getElementById("spn3")
-// var target = 20
-// var duration = 4000
-
-// var increment = target /(duration/16) //fps
-
-// var current = 0
-
-// function updateCounter(){
-//     current += increment
-//     if(current<target){
-//         counter.textContent=Math.floor(current)
-//         requestAnimationFrame(updateCounter)
-//     }else{
-//         counter.textContent=target
-//     }
-// }
-// updateCounter()
-// }
-
-function clicks(){
-    alert("Your request has been sent")
-}
-
 function startCounters() {
     // Configuration for each counter
     var counters = [
@@ -69,16 +44,8 @@ function startCounters() {
     requestAnimationFrame(updateCounter);
   }
 
-function myFunction() {
-    var element = document.querySelector(".container");
-    element.classList.toggle("light-mode");
-}
-
-// let currentIndex = 0;
-// const images = document.querySelectorAll('.project-image');
-
-// function showNextImage() {
-//     images[currentIndex].style.opacity = 0; 
-//     currentIndex = (currentIndex + 1) % images.length; 
-//     images[currentIndex].style.opacity = 1; 
+// function myFunction() {
+//     var element = document.querySelector(".container");
+//     element.classList.toggle("light-mode");
 // }
+

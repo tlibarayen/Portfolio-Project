@@ -16,7 +16,7 @@ ul li {
     
 }
 ul li:hover{
-/* color: #1d9ba5; */
+
 background-color: #1d9ba5;
 cursor: pointer;
 border-radius: 50%;
@@ -66,8 +66,7 @@ ul{
     gap: 20px;
     align-items: start;
     width: 40%;
-    /* padding: 20PX; */
-    /* padding-left: 30px; */
+    
 }
 .profile-left a {
     color:#1d9ba5 ;
@@ -108,6 +107,17 @@ ul{
     border-radius: 25px;
     color: black;
     text-decoration: none;
+}
+
+#texte a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    transition: color 2s;
+
+}
+#texte a:hover{
+    color: #0aedfe;
 }
 
 .bloc-logo1 img{
@@ -207,7 +217,7 @@ hr{
     background-color: #0f3f4b;
     width: 20%;
     border: 2px solid #04dcca;
-    padding: 20px 0px 40px 0px;
+    padding: 15px 15px 40px 20px;
     
 }
 .bloc-a{
@@ -300,13 +310,7 @@ hr{
     
     
 }
-.enter form{
-    /* display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 25px; */
-    
-}
+
 .enter form input{
     padding: 15px 0px 15px 15px;
     background-color: black;
@@ -362,6 +366,7 @@ hr{
 }
 .contact h1:hover{
     color: #04dcca;
+    cursor: pointer;
     
 
 }
@@ -484,20 +489,4 @@ hr{
     43% { opacity: 0; }
     100% { opacity: 0; }
 } */
-/* @keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px); 
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0); 
-    }
-}
-.about #texte {
-    background-color: rgba(255, 255, 255, 0.5); 
-    animation: fadeIn 1.5s ease-in-out; 
-    width: 34%;
-    font-size: large;
-    color: white;
-} */
+

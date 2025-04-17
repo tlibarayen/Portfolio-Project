@@ -27,12 +27,12 @@
                 <h3 class="text-animation">And I'm a <span></span></h3>
                 <p>work on both the front-end and the back-end of an application</p>
                 <div class="bloc-logo1">
-                    <a href="https://github.com/"><img src="/icons/git.png" alt="git"></a>
-                    <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dfr_FR"><img src="/icons/facebook3.png" alt="facebook"></a>
-                    <a href="https://mail.google.com/mail/?view=cm&to=your-email@example.com"><img src="/icons/message.png" alt="email"></a>
-                    <a href="https://www.linkedin.com/in/rayen-tliba-226484360/"><img src="/icons/linkedin.png" alt="linkedin_image"></a>
+                    <a href="https://github.com/" target="_blank"><img src="/icons/git.png" alt="git"></a>
+                    <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dfr_FR" target="_blank"><img src="/icons/facebook3.png" alt="facebook"></a>
+                    <a href="https://mail.google.com/mail/?view=cm&to=tlibarayen2@gmail.com" target="_blank"><img src="/icons/message.png" alt="email"></a>
+                    <a href="https://www.linkedin.com/in/rayen-tliba-226484360/" target="_blank"><img src="/icons/linkedin.png" alt="linkedin_image"></a>
                 </div>
-                <!-- <button id="btn1"><a href="Cv.png">Download CV</a></button> -->
+                
                 <a href="Cv.png" download="" id="bot"  >Download CV</a>
                 <div class="xp">
                     <div class="xp1">
@@ -66,7 +66,7 @@
             <div class="under-about">
                 
                 <p id="texte">
-                    I am a passionate Full Stack Developer with expertise in building dynamic, scalable, and user-friendly web applications. With a strong foundation in both front-end and back-end development, I thrive on solving complex problems and delivering innovative solutions. I am committed to continuous learning and staying updated with the latest technologies to create impactful digital experiences.</p>
+                    I am a passionate <a href="https://fr.wikipedia.org/wiki/D%C3%A9veloppeur_full_stack" target="_blank">Full Stack Developer</a> with expertise in building dynamic, scalable, and user-friendly web applications. With a strong foundation in both front-end and back-end development, I thrive on solving complex problems and delivering innovative solutions. I am committed to continuous learning and staying updated with the latest technologies to create impactful digital experiences.</p>
                 <img id="zom" src="/images/image_about.png" alt="picture">    
             </div>
             
@@ -119,9 +119,9 @@
                 <img src="/icons/git.png" alt="git">
             </div>
             <div class="content" id="project-carousel" >
-                <img class="project-image" height="200" src="/images/Profile_Page.png" alt="Profile">
-                <img class="project-image" height="200" src="/images/dojo_weather.png" alt="weather">
-                <img class="project-image" height="200" src="/images/Connections.png" alt="connections">
+                <a href="https://github.com/tlibarayen/Nefel_Education/tree/main/Web_Fundamentals/week1/Day4/Core/Profile_Page" target="_blank"><img class="project-image" height="200" src="/images/Profile_Page.png" alt="Profile"></a>
+                <a href="https://github.com/tlibarayen/Nefel_Education/tree/main/Web_Fundamentals/week2/Day3/Practice/DojoWeather" target="_blank"><img class="project-image" height="200" src="/images/dojo_weather.png" alt="weather"></a>
+                <a href="https://github.com/tlibarayen/Nefel_Education/tree/main/Web_Fundamentals/week2/Day3/Practice/Making_Connections" target="_blank"><img class="project-image" height="200" src="/images/Connections.png" alt="connections"></a>
             </div>
             <button><a href="https://github.com/tlibarayen/Nefel_Education">See More</a></button>
         </div>
@@ -138,22 +138,23 @@
                         <p>+33 06 10 57 21 61</p>
                     </div>
                     <div class="bloc13">
-                        <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dfr_FR"><img src="/icons/facebook3.png" alt="facebook"></a>
-                        <a href="https://mail.google.com/mail/?view=cm&to=your-email@example.com"><img src="/icons/message.png" alt="email"></a>
-                        <a href="https://www.linkedin.com/in/rayen-tliba-226484360/"><img src="/icons/linkedin.png" alt="linkedin_image"></a>
+                        <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dfr_FR" target="_blank"><img src="/icons/facebook3.png" alt="facebook"></a>
+                        <a href="https://mail.google.com/mail/?view=cm&to=your-email@example.com" target="_blank"><img src="/icons/message.png" alt="email"></a>
+                        <a href="https://www.linkedin.com/in/rayen-tliba-226484360/" target="_blank"><img src="/icons/linkedin.png" alt="linkedin_image"></a>
                     </div>
                 
             </div>
             <div class="enter">
-                <form action="">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your Email">
-                    <input id="ipt2" type="text" placeholder="Your Message">
-                    <input onclick="clicks()" type="button" value="Submit">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="d1737500-cdac-4062-923b-3f20c216926c">
+                    <input type="text" name="full_name" placeholder="Your Name">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <input id="ipt2" name="message" type="text" placeholder="Your Message">
+                    <input type="submit" value="Submit">
                 </form>
             </div>
         </div> 
-        <button id="btn5" onclick="myFunction()" >switch</button>     
+            
     </div>
 
 <script src="script.js"></script>    
