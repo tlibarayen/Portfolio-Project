@@ -267,7 +267,12 @@ hr{
 .content img{
     /* width: 18%; */
     border: 4px solid black;
-    /* scale: 0.1; */
+    box-sizing: border-box;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 4s ease-in-out infinite;
+	img { width: 100%; height: auto; }
     
 }
 .content img:hover{
@@ -490,3 +495,17 @@ hr{
     100% { opacity: 0; }
 } */
 
+@keyframes float2 {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+    }
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+        transform: translatey(-20px);
+    }
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+    }
+}
