@@ -179,13 +179,13 @@ hr{
     display: flex;
     justify-content: space-around;
 }
-/* #texte{
+#texte{
     width: 34%;
     font-size: large;
     color: white;
     
 
-} */
+}
 .under-about img{
     width: 20%;
 }
@@ -243,6 +243,7 @@ hr{
 .title p{
     font-size: 40px;
     color:#41b4ce ;
+    
 }
 .content{
     display: flex;
@@ -483,7 +484,7 @@ hr{
     43% { opacity: 0; }
     100% { opacity: 0; }
 } */
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     from {
         opacity: 0;
         transform: translateY(20px); 
@@ -499,4 +500,4 @@ hr{
     width: 34%;
     font-size: large;
     color: white;
-}
+} */
