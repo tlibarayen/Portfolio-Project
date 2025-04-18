@@ -57,7 +57,7 @@ ul{
 }
 .nb-color {
     color: #0aedfe;
-    font-size: larger;
+    font-size: 22px;
 }
 .profile-left{
     color: white;
@@ -117,7 +117,7 @@ ul{
 
 }
 #texte a:hover{
-    color: #0aedfe;
+    color: bisque;
 }
 
 .bloc-logo1 img{
